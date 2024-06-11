@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <!doctype html>
+    <html>
+    
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="stylesmit.css">
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll('nav a');
+        
+            navLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+        
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+        
+                    window.scrollTo({
+                        top: targetSection.offsetTop-50,
+                        behavior: 'smooth'
+                    }); 
+                });
+            });
+        });
+        </script>
+    
+    
+    </head>
+    <body>
+        
+    
+        <main class="dark:bg-gray-800 bg-white relative overflow-hidden h-screen">
+            <header class="h-24 sm:h-32 flex items-center z-30 w-full">
+                <div class="container mx-auto px-6 flex items-center justify-between">
+                    <img id="img" src="https://awamiweb.com/wp-content/uploads/2018/07/saylani-welfare.jpg?x32271" loading="lazy" style="color:transparent" width="150" height="32"></a>
+                   
+                    <div class="uppercase text-gray-800 dark:text-white font-black text-3xl">
+                        
+                    </div>
+                    <div class="flex items-center">
+                        <nav class="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
+                            <a href="#" class="py-2 px-6 flex">
+                              HOME
+                            </a>
+                            <a href="#" class="py-2 px-6 flex">
+                               ABOUT
+                            </a>
+                            <a href="#" class="py-2 px-6 flex">
+                               UPDATES
+                            </a>
+                            <a href="#" class="py-2 px-6 flex">
+                                Contact Us
+                            </a>
+                            <a href="#" class="py-2 px-6 flex">
+                                
+                            </a>
+                        </nav>
+                        <button class="lg:hidden flex flex-col ml-4">
+                            <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                            </span>
+                            <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                            </span>
+                            <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            
+            
+            <div class="bg-white dark:bg-gray-800 flex relative z-20 items-center overflow-hidden">
+                <div class="container mx-auto px-6 flex relative py-16">
+                    <div class="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
+                        <span class="w-20 h-2 bg-gray-800 dark:bg-white mb-12">
+                        </span>
+                        <h1 class="font-bebas-neue uppercase text-2x1 sm:text-6xl font-black flex flex-col leading-none dark:text-white text-green-800">
+                           WELCOME TO سیلانی WELFARE </h1>
+                            <span class="text-2x1 sm:text-4xl">
+                                TRUST
+                            </span>
+                        
+                        <p class="text-sm sm:text-base text-gray-700 dark:text-white">
+                            Saylani Welfare is on the ground and already working with local communities to
+                            assess how best to support underprivileged families in more than 63 areas of day to day lives.Saylani Welfare International Trust is a non-profit organization based in Pakistan, dedicated to serving humanity regardless of race, religion, or nationality. Established in 1999 by renowned philanthropist Maulana Bashir Ahmed Farooqui, Saylani Welfare Trust has grown into one of the largest charitable organizations in Pakistan.      </p>
+                        <div class="flex mt-8">
+                            <a href="https://www.saylaniwelfare.com/en/donate" class="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400">
+                                DONATE US
+                            </a>
+                                
+                            </a>                
+                        </div>
+                    </div>
+                    <div class="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
+                        <img src="https://2.bp.blogspot.com/-7kK5xc3grts/XKNNtBPQdNI/AAAAAAAAJu0/jliCULeCCzsyZBEjiz5m_yiQDLxzIz7bQCLcBGAs/s1600/SAYLANI%2BTEXTILE%2BTRAINING%2BPROGRAM.jpg" class="max-w-xs md:max-w-sm m-auto"/>
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+    
+    
+    
+    
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+     
+            <div class="group cursor-pointer relative">
+              <img
+                src="https://i.ytimg.com/vi/3qh53nF5634/sddefault.jpg?v=654e4105"
+                alt="Image 1"
+                class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+              />
+              <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <button class="bg-white text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors">
+                  View
+                </button>
+              </div>
+            </div>
+           
+            <div class="group cursor-pointer relative">
+              <img
+                src="https://res.cloudinary.com/saylani-welfare/image/upload/v1676274365/website-images/dynamic/b0abff1d-a3f9-49a7-9d58-273bbc735561.jpg"
+                alt="Image 1"
+                class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+              />
+              <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <button class="bg-white text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors">
+                  View
+                </button>
+              </div>
+            </div>
+           
+            <div class="group cursor-pointer relative">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwsyydXRpCTFR5L5f3U0f55stYN2bJ3N_P_A&usqp=CAU"
+                alt="Image 1"
+                class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+              />
+              <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <button class="bg-white text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors">
+                  View
+                </button>
+              </div>
+            </div>
+           
+            <div class="group cursor-pointer relative">
+              <img
+                src="https://i.ytimg.com/vi/t98r5Q-2znA/maxresdefault.jpg"
+                alt="Image 1"
+                class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+              />
+              <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <button class="bg-white text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors">
+                  View
+                </button>
+              </div>
+            </div>
+           
+            <div class="group cursor-pointer relative">
+           
+              <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <button class="bg-white text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors">
+                  View
+                </button>
+              </div>
+            </div>
+           
+            <div class="group cursor-pointer relative">
+             
+              <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <button class="bg-white text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors">
+                  View
+                </button>
+              </div>
+            </div>
+           
+            <div class="group cursor-pointer relative">
+             
+              <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <button class="bg-white text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors">
+                  View
+                </button>
+              </div>
+            </div>
+           
+            <div class="group cursor-pointer relative">
+              
+              <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <button class="bg-white text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors">
+                  View
+                </button>
+              </div>
+            </div>
+           
+            <div class="group cursor-pointer relative">
+              <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <button class="bg-white text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors">
+                  View
+                </button>
+              </div>
+            </div>
+           
+            <div class="group cursor-pointer relative">
+              <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <button class="bg-white text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors">
+                  View
+                </button>
+              </div>
+            </div>
+           
+            <div class="group cursor-pointer relative">
+              <img
+                  View
+                </button>
+              </div>
+            </div>
+           
+            <div class="group cursor-pointer relative">
+              <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <button class="bg-white text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors">
+                  View
+                </button>
+              </div>
+            </div>
+          
+          
+            <!-- Repeat this div for each image -->
+          </div>
+          
+    
+    
+    
+    
+          <div class="relative h-screen w-full">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVnKNpg5Om1s_rPdPUlNgeqVYzO538_O-IvqwmFNRQXoJFSCfy8o6BIqyQI3xO2s1JlWM&usqp=CAU" alt="Background Image" class="absolute inset-0 w-full h-full object-cover filter blur-sm">
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div class="absolute inset-0 flex flex-col items-center justify-center">
+                <h1 class="text-4xl text-white font-bold">Saylani Welfare</h1>
+                <p class="text-xl text-white mt-4">saylani is sharing the happines of ramadan </p>
+            </div>
+        </div>
+
+
+
+
+<br><br>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          <div class="bg-gray-900 py-24 sm:py-32">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+              <div class="mx-auto max-w-2xl lg:max-w-none">
+                <div class="text-center space-y-4">
+                  <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Trusted by Pakistani people worldwide</h2>
+                  <p class="text-lg leading-8 text-gray-300">We can help you grow your audience and your potential, no matter the
+                    size.
+                  </p>
+                </div>
+                <dl class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
+                  <div class="flex flex-col bg-white/5 p-8">
+                    <dt class="text-sm font-semibold leading-6 text-gray-300">statics of 2024 </dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-white">12.535 million</dd>
+                  </div>
+                  <div class="flex flex-col bg-white/5 p-8">
+                    <dt class="text-sm font-semibold leading-6 text-gray-300">working in feilds</dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-white">63</dd>
+                  </div>
+                  <div class="flex flex-col bg-white/5 p-8">
+                    <dt class="text-sm font-semibold leading-6 text-gray-300">hours of media</dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-white">6.6k</dd>
+                  </div>
+                  <div class="flex flex-col bg-white/5 p-8">
+                    <dt class="text-sm font-semibold leading-6 text-gray-300">answers</dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-white">31.8k</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          
+    
+    
+    <div  class="max-w-screen-xl mx-auto py-8 px-4 lg:py-16 lg:px-6" id="update" >
+        <div  class="text-center mb-10">
+            <h2  class="text-6xl tracking-tight font-bold text-primary-800">FACILITIES</h2>
+        </div>
+      
+        <div class="flex flex-col md:flex-row">
+            <!-- can help image -->
+            <div class="mr-0 md:mr-8 mb-6 md:mb-0">
+                <img class="w-1/2 md:w-full mx-auto"  src="https://tse4.mm.bing.net/th?id=OIP.WFSTa5CXZlch1UHA4m6UZgHaEK&pid=Api&P=0&h=220" width="400" height="400" alt="can_help_banner">
+            </div>
+            <!-- end can help image -->
+      
+            <div class="flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 -mx-2">
+                <div class="w-full sm:w-1/2 mb-4 px-2 ">
+                    <div class="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
+                        <h3 class="text-2xl font-bold text-md mb-6">MEDICAL:</h3>
+                        <p class="text-sm">Saylani Welfare has also set up a clinic for the best treatment of hepatitis patients where hepatitis patients are being treated.</p>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2 mb-4 px-2 ">
+                    <div class="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
+                        <h3 class="text-2xl font-bold text-md mb-6">Housing Society:</h3>
+                        <p class="text-sm"> Saylani Welfare is also providing its own home facility for the homeless people. So far, thousands of houses and flats have been constructed and given in easy installments.</p>
+                    </div>
+                </div>
+      
+                <div class="w-full sm:w-1/2 mb-4 px-2 ">
+                    <div class="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
+                        <h3 class="text-2xl font-bold text-md mb-6">IT EDUCATION: </h3>
+                        <p class="text-sm">We are committed to developing more than 1 million software developers, which will add about 100 billion annually to Pakistan's economy and help ease the debt burden on Pakistan.</p>
+                    </div>
+                </div>
+      
+                <div class="w-full sm:w-1/2 mb-4 px-2 ">
+                    <div class="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
+                        <h3 class="text-2xl font-bold text-md mb-6">Tharparkar</h3>
+                        <p class="text-sm">In Tharparkar, Saylani has set up several schools and ro plants, dug wells and brought the children there to Karachi and taught them modern technology
+      .</p>
+                    </div>
+                </div>
+      
+      
+            </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <section class="bg-gray-100">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
+            <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-extrabold text-green-900">Visit Our Location</h2>
+                <p class="mt-4 text-lg text-gray-500"></p>
+            </div>
+            <div class="mt-16 lg:mt-20">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="rounded-lg overflow-hidden">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.4470668289073!2d67.06557837595288!3d24.882727744365006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eebb56aaaab%3A0x27ab04809ef5020a!2sSaylani%20Welfare%20Head%20Office.!5e0!3m2!1sen!2s!4v1710662029651!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div>
+                        <div class="max-w-full mx-auto rounded-lg overflow-hidden">
+                            <div class="px-6 py-4">
+                                <h3 class="text-lg font-medium text-green-900">Our Address</h3>
+                                <p class="mt-1 text-gray-600">Head Office: A-25, Bahadurabad Chowrangi Karachi, Pakistan </p>
+                            </div>
+                            <div class="border-t border-gray-200 px-6 py-4">
+                                <h3 class="text-lg font-medium text-green-900">Hours</h3>
+                                <p class="mt-1 text-gray-600"> 
+                                    Sunday	Closed <br>
+                                    Monday	9 am–6 pm <br>
+                                    Tuesday	9 am–6 pm <br>
+                                    Wednesday <br>
+                                  
+                                    Hours might differ <br>
+                                    Thursday
+                                    9 am–6 pm <br>
+                                    Hours might differ <br>
+                                    Friday	9 am–6 pm <br>
+                                    Saturday
+                                    (Pakistan Day) <br>
+                                    9 am–6 pm <br>
+                                  
+                                    
+                                    
+                                    
+                                    </p>
+                               
+                            </div>
+                            <div class="border-t border-gray-200 px-6 py-4">
+                                <h3 class="text-lg font-medium text-green-900">Contact</h3>
+                                <p class="mt-1 text-gray-600">info@SaylaniWelfare.com</p>
+                                <p class="mt-1 text-gray-600">021-111-729-526</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+      
+      
+ <script  src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1">  </script>
+<df-messenger 
+  intent="WELCOME"
+  chat-title="SAYLANI-AI"
+  agent-id="49a75474-77b5-4d08-b64f-9d99e4c3c0f4"
+  language-code="en"
+></df-messenger>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+    <html>
+
+
+
+
+    
+
+
+
+</body>
+</html>
